@@ -1,0 +1,86 @@
+/* Hover */
+.header-box .sub-header li:hover {
+  cursor: pointer;
+  color: #ccc;
+}
+
+.header-box #ul1 li:nth-last-child(1):hover {
+  cursor: unset;
+  color: white;
+}
+.sub-header li:nth-last-child(1) i:hover {
+  cursor: pointer;
+}
+
+#ul2 li:nth-child(1):hover .thongbao {
+  animation: ani 0.2s linear;
+  transform-origin: 95% 0;
+  display: block;
+}
+/* cart */
+.cart:hover .thongbao-cart {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.content-cart ul li:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.content-cart li .btn_product_cart:hover {
+  color: #ee3a2d;
+}
+/* product */
+.main-body li:hover {
+  cursor: pointer;
+  border-color: #ee4d2d;
+  top: -1px;
+}
+
+.main-body li:hover .them_sanpham {
+  display: block;
+  border-left: 1px solid #ee4d2d;
+  border-right: 1px solid #ee4d2d;
+  transform: translateY(-1px);
+
+  z-index: 1;
+}
+
+/* footer */
+.footer-box .content-footer li:hover,
+.content-footer .theodoi div:hover {
+  cursor: pointer;
+  color: #ee4d2d;
+}
+
+/* tim kiem */
+.timkiem ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+/* phân loại sub header */
+.sub_header_phanloai li:hover {
+  color: red;
+}
+
+.main-sub-header > ul > li:nth-last-child(1):hover .sub_header_phanloai {
+  display: block;
+}
+
+/* left page */
+.left ul li:hover {
+  cursor: pointer;
+  color: #ee3a2d;
+}
+
+/* Phân trang */
+.phantrang li:hover {
+  cursor: pointer;
+  color: #ee4d2d;
+}
+
+/* .phantrang li:nth-child(2):hover {
+  padding: 4px 10px;
+  background-color: #ee3a2d;
+  color: white;
+} */

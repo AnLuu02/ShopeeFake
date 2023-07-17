@@ -1,0 +1,443 @@
+{
+  "product": [
+    {
+      "id":1,
+      "image_product":"../1/1.jpg",
+      "name":"Dữ dội và dịu êm",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":2,
+      "image_product":"../1/dark.jpg",
+      "name":"Ồn ào và lặng lẽ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":3,
+      "image_product":"../1/nen.jpg",
+      "name":"Sông không hiểu nổi mình",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":4,
+      "image_product":"../1/nen1.jpg",
+      "name":"Ôi con sóng ngày xưa",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":5,
+      "image_product":"../1/nen2.jpg",
+      "quatity":30,
+      "name":"Và ngày sau vẫn thế",
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":6,
+      "image_product":"../1/nen3.jpg",
+      "quatity":30,
+      "name":"Nỗi khát vọng tình yêu",
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":7,
+      "image_product":"../1/nen4.jpg",
+      "quatity":30,
+      "name":"Bồi hồi trong ngực trẻ",
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":8,
+      "image_product":"../1/nen5.jpg",
+      "quatity":30,
+      "name":"Trước muôn trùng sóng bể",
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":9,
+      "image_product":"../1/nen6.jpg",
+      "quatity":30,
+      "name":"Em nghĩ về anh, em",
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":10,
+      "image_product":"../1/nen7.jpg",
+      "quatity":30,
+      "name":"Em nghĩ về biển lớn",
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":11,
+      "image_product":"../1/nen8.jpg",
+      "quatity":30,
+      "name":"Từ nơi nào sóng lên?",
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":12,
+      "image_product":"../1/new1.jpg",
+      "quatity":30,
+      "name":"Sóng bắt đầu từ gió",
+      "quatity_buy":300,
+      "price":120000
+    },{
+      "id":13,
+      "image_product":"../1/1.jpg",
+      "name":"Gió bắt đầu từ đâu?",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":14,
+      "image_product":"../1/dark.jpg",
+      "name":"Em cũng không biết nữa",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":15,
+      "image_product":"../1/nen.jpg",
+      "name":"Khi nào ta yêu nhau",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":16,
+      "image_product":"../1/nen1.jpg",
+      "name":"Con sóng dưới lòng sâu",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":17,
+      "image_product":"../1/nen2.jpg",
+      "name":"Con sóng trên mặt nước",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":18,
+      "image_product":"../1/nen3.jpg",
+      "name":"Ôi con sóng nhớ bờ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":19,
+      "image_product":"../1/nen4.jpg",
+      "name":"Ngày đêm không ngủ được",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":20,
+      "image_product":"../1/nen5.jpg",
+      "name":"Lòng em nhớ đến anh",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":21,
+      "image_product":"../1/nen6.jpg",
+      "name":"Cả trong mơ còn thức",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":22,
+      "image_product":"../1/nen7.jpg",
+      "name":"Dẫu xuôi về phương bắc",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":23,
+      "image_product":"../1/nen8.jpg",
+      "name":"Dẫu ngược về phương nam",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":24,
+      "image_product":"../1/new1.jpg",
+      "name":"Nơi nào em cũng nghĩ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":25,
+      "image_product":"../1/1.jpg",
+      "name":"Hướng về anh - một phương",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":26,
+      "image_product":"../1/dark.jpg",
+      "name":"Ở ngoài kia đại dương",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":27,
+      "image_product":"../1/nen.jpg",
+      "name":"Trăm nghìn con sóng đó",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":28,
+      "image_product":"../1/nen1.jpg",
+      "name":"Con nào chẳng tới bờ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":29,
+      "image_product":"../1/nen2.jpg",
+      "name":"Dù muôn vời cách trở",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":30,
+      "image_product":"../1/nen3.jpg",
+      "name":"Cuộc đời tuy dài thế",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":31,
+      "image_product":"../1/nen4.jpg",
+      "name":"Năm tháng vẫn đi qua",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":32,
+      "image_product":"../1/nen5.jpg",
+      "name":"Như biển kia dẫu rộng",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":33,
+      "image_product":"../1/nen6.jpg",
+      "name":"Mây vẫn bay về xa",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":34,
+      "image_product":"../1/nen7.jpg",
+      "name":"Làm sao được tan ra",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":35,
+      "image_product":"../1/nen8.jpg",
+      "name":"Thành trăm con sóng nhỏ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":36,
+      "image_product":"../1/new1.jpg",
+      "name":"Giữa biển lớn tình yêu",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":37,
+      "image_product":"../1/new1.jpg",
+      "name":"Để ngàn năm còn vỗ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":38,
+      "image_product":"../1/nen5.jpg",
+      "name":"Lòng em nhớ đến anh",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":39,
+      "image_product":"../1/nen6.jpg",
+      "name":"Cả trong mơ còn thức",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":40,
+      "image_product":"../1/nen7.jpg",
+      "name":"Dẫu xuôi về phương bắc",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":41,
+      "image_product":"../1/nen8.jpg",
+      "name":"Dẫu ngược về phương nam",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":42,
+      "image_product":"../1/new1.jpg",
+      "name":"Nơi nào em cũng nghĩ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":43,
+      "image_product":"../1/1.jpg",
+      "name":"Hướng về anh - một phương",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":44,
+      "image_product":"../1/dark.jpg",
+      "name":"Ở ngoài kia đại dương",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":45,
+      "image_product":"../1/nen.jpg",
+      "name":"Trăm nghìn con sóng đó",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":46,
+      "image_product":"../1/nen1.jpg",
+      "name":"Con nào chẳng tới bờ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":47,
+      "image_product":"../1/nen2.jpg",
+      "name":"Dù muôn vời cách trở",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":48,
+      "image_product":"../1/nen3.jpg",
+      "name":"Cuộc đời tuy dài thế",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":49,
+      "image_product":"../1/nen4.jpg",
+      "name":"Năm tháng vẫn đi qua",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":50,
+      "image_product":"../1/nen5.jpg",
+      "name":"Như biển kia dẫu rộng",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":51,
+      "image_product":"../1/nen6.jpg",
+      "name":"Mây vẫn bay về xa",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":52,
+      "image_product":"../1/nen7.jpg",
+      "name":"Làm sao được tan ra",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":53,
+      "image_product":"../1/nen8.jpg",
+      "name":"Thành trăm con sóng nhỏ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":54,
+      "image_product":"../1/new1.jpg",
+      "name":"Giữa biển lớn tình yêu",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    },
+    {
+      "id":55,
+      "image_product":"../1/new1.jpg",
+      "name":"Để ngàn năm còn vỗ",
+      "quatity":30,
+      "quatity_buy":300,
+      "price":120000
+    }
+  ]
+}
