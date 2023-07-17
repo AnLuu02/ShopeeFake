@@ -13,7 +13,456 @@
         <title>An Market</title>
     </head>
 
-    <body></body>
+    <body>
+        <div class="container">
+            <!-- form -->
+            <div class="login hide">
+                <div class="header-login sub-header">
+                    <div class="left-sub-header">
+                        <img src="logo.png" alt="" class="logo" />
+                        <span>Đăng nhập</span>
+                    </div>
+                    <span>Bạn cần giúp đỡ?</span>
+                </div>
+                <div class="main-login">
+                    <div class="main-content-login sub-header">
+                        <div class="sub-content">
+                            <img src="" alt="" />
+                            <p>Nền tảng thương mại điện tử yêu thịch ở Đông Nam Á và Đài Loan</p>
+                        </div>
+                        <!-- login -->
+                        <div class="login-form" style="display: none">
+                            <div class="header-form">
+                                <span>Đăng nhập</span>
+                                <div class="QR-form">
+                                    <img src="qrcode.png" alt="" />
+                                </div>
+                                <div class="dangnhap_Qr">Đăng nhập với mã QR</div>
+                            </div>
+                            <div class="main-form">
+                                <form action="">
+                                    <input type="text" name="" id="" placeholder="Email/Số điện thoại/Tên đăng nhập" />
+                                    <div class="thongbao_trong"></div>
+                                    <div class="password">
+                                        <input type="text" name="" id="" placeholder="Mật khẩu" />
+                                        <i class="fa-solid fa-eye"></i>
+                                        <i class="fa-solid fa-eye-slash"></i>
+                                    </div>
+                                    <div class="thongbao_trong"></div>
+                                    <button class="btn-login-form">Đăng nhập</button>
+                                </form>
+                                <div class="lay-lai-tk">
+                                    <a href="">Quên mật khẩu</a>
+                                    <a href="">Đăng nhập với SMS</a>
+                                </div>
+                                <div class="hoac">Hoặc</div>
+                                <div class="login-khac">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-facebook"></i>
+                                            <div>Facebook</div>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-google"></i>
+                                            <div>Google</div>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-apple"></i>
+                                            <div>Apple</div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dangki">
+                                    <span>Bạn mới biết đến Shopee? <a href="">Đăng ký</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end form -->
+                        <!-- đăng kí -->
+                        <div class="login-form">
+                            <div class="header-form">
+                                <span>Đăng kí</span>
+                            </div>
+                            <div class="main-form">
+                                <form action="">
+                                    <input type="text" name="" id="" placeholder="Số điện thoại" />
+                                    <div class="thongbao_trong"></div>
+                                    <button class="btn-login-form btn-login-form_dangki">Tiếp theo</button>
+                                </form>
+                                <div class="hoac hoac_dangki">Hoặc</div>
+                                <div class="login-khac login-khac_dangki">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-facebook"></i>
+                                            <div>Facebook</div>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-google"></i>
+                                            <div>Google</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="message_dangki">
+                                    <div>Bằng việc đăng kí, bạn đã đồng ý với Shopee về</div>
+                                    <a href="">Điều khoản dịch vụ & </a>
+                                    <a href="">Chính sách bảo mật</a>
+                                </div>
+                                <div class="dangki">
+                                    <span>Bạn mới biết đến Shopee? <a href="">Đăng ký</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end đăng kí -->
+                    </div>
+                </div>
+            </div>
+            <header class="header-box">
+                <div class="sub-header">
+                    <ul id="ul1">
+                        <li>Kênh Người Bán</li>
+                        <li>Trở thành Người bán An Market</li>
+                        <li>Tải ứng dụng</li>
+                        <li>
+                            Kết nối
+                            <i class="fa-brands fa-facebook fb"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                    </ul>
+                    <ul id="ul2">
+                        <li>
+                            <i class="fa-solid fa-bell"></i> Thông báo
+                            <div class="thongbao">
+                                <div class="content-thongbao">
+                                    <img src="" alt="" />
+                                    <p class="messeage">Đăng nhập để xem thông báo</p>
+                                </div>
+                                <div class="btn-box">
+                                    <button>Đăng kí</button>
+                                    <button>Đăng nhập</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li><i class="fa-solid fa-circle-question"></i> Hỗ trợ</li>
+                        <li>
+                            <i class="fa-solid fa-globe"></i> Ngôn ngữ
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </li>
+                        <li>Đăng kí</li>
+                        <li id="login">Đăng nhập</li>
+                    </ul>
+                </div>
+                <div class="main-header">
+                    <img src="./image/qrcode.png" alt="" class="logo" />
+                    <form action="" autocomplete="off">
+                        <input type="text" placeholder="Nhập tìm kiếm vào đây" name="search" />
+                        <button class="btn-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <div class="timkiem">
+                            <div><i class="fa-solid fa-shop"></i><span id="timshop">Tìm shop</span></div>
+                            <ul id="value_search"></ul>
+                        </div>
+                    </form>
+                    <div class="cart">
+                        <div class="icon_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="quatity_product_add" style="display: none"></span>
+                        </div>
+                        <div class="thongbao-cart">
+                            <div class="content-cart">
+                                <span><img src="./image/empty-cart.png" alt="" class="imgEmpty" /></span>
+                                <!-- danh sách sản phẩm thêm vào cart -->
+                                <ul></ul>
+                            </div>
+                            <button class="btn-cart hide">Xem giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="main">
+                <div class="left">
+                    <!-- <div class="">
+                    <h2><i class="fa-solid fa-bars"></i>Tất cả danh mục</h2>
+                    <ul>
+                        <li>Trang điểm mặt</li>
+                        <li>Trang điểm môi</li>
+                        <li>Trang điểm mắt</li>
+                        <li>Trang điểm mắt</li>
+                        <li>Trang điểm mắt</li>
+                        <li>Trang điểm mắt</li>
+                        <li>Trang điểm mắt</li>
+                        <li>Trang điểm mắt</li>
+                        <li>Trang điểm mắt</li>
+                        <li>Trang điểm mắt</li>
+                    </ul>
+                </div> -->
+                    <div class="loc">
+                        <h2><i class="fa-solid fa-filter"></i>Bộ lọc tìm kiếm</h2>
+                        <div class="theodanhmuc subDanhmuc">
+                            <h3>Theo danh mục</h3>
+                            <form action="">
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="1" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="1"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="2" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="2"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="3" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="3"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="4" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="4"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="5" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="5"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="6" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="6"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="btn_add_danhmuc">Thêm <i class="fa-solid fa-angle-down"></i></div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="7" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="7"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="8" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="8"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="9" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="9"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                                <div class="checkbox_control">
+                                    <input type="checkbox" name="" id="10" class="checkbox_box" /><label
+                                        class="checkbox_label"
+                                        for="10"
+                                        >Tai nghe nhét tai và chụp tai</label
+                                    >
+                                </div>
+                            </form>
+                        </div>
+                        <div class="khoanggia subDanhmuc">
+                            <h3>Khoảng giá</h3>
+                            <form action="">
+                                <div class="khoanggia_input">
+                                    <input
+                                        type="text"
+                                        name=""
+                                        id=""
+                                        placeholder="$ Từ"
+                                        oninput="this.value=this.value.replace(/[^\d]/,'')"
+                                    />
+                                    <input
+                                        type="text"
+                                        name=""
+                                        id=""
+                                        placeholder="$ Đến"
+                                        oninput="this.value=this.value.replace(/[^\d]/,'')"
+                                    />
+                                </div>
+                                <button class="btn_danhmuc">Áp dụng</button>
+                            </form>
+                        </div>
+                        <div class="danhgia subDanhmuc">
+                            <h3>Đánh giá</h3>
+                            <span class="danhgia_star">
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                            </span>
+                            <span class="danhgia_star">
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                trở lên
+                            </span>
+                            <span class="danhgia_star">
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                trở lên
+                            </span>
+                            <span class="danhgia_star">
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                trở lên
+                            </span>
+                            <span class="danhgia_star">
+                                <i class="fa-solid fa-star color_star_full"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                <i class="fa-regular fa-star color_star"></i>
+                                trở lên</span
+                            >
+                        </div>
+                        <button class="btn_danhmuc">Xoa tất cả</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="main-box">
+                        <div class="main-sub-header">
+                            <ul>
+                                <span>Sắp xếp theo</span>
+                                <li class="nav active">Phổ biến</li>
+                                <li class="nav">Mới nhất</li>
+                                <li class="nav">Bán chạy</li>
+                                <li>
+                                    <div class="slide_content">
+                                        <span id="slide_price">Giá</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                    <div class="sub_header_phanloai">
+                                        <ul>
+                                            <li>
+                                                Giá: Thấp đến cao
+                                                <i class="fa-solid fa-check checkPhanLoai hidePhanLoai"></i>
+                                            </li>
+                                            <li>Giá: Cao đến thấp <i class="fa-solid fa-check checkPhanLoai"></i></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="header-phantrang">
+                                <ul>
+                                    <li><span id="count_page" style="color: red">1</span>/14</li>
+                                    <li>
+                                        <div class="move_Page">
+                                            <i class="fa-solid fa-angle-left"></i>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="main-sub-header-all" style="display: none">
+                            <span>Tất cả</span>
+                        </div>
+
+                        <div class="main-body">
+                            <ul id="list_product">
+                                <li class="loading"></li>
+                            </ul>
+                        </div>
+                        <div class="xemthem" style="display: none">
+                            <button>Xem thêm</button>
+                        </div>
+
+                        <!-- Phân trang -->
+                        <div class="phantrang">
+                            <ul>
+                                <li id="prev"><i class="fa-solid fa-angle-left"></i></li>
+                                <li class="page active" data-index="10">1</li>
+                                <li class="page" data-index="20">2</li>
+                                <li class="page" data-index="30">3</li>
+                                <li class="page" data-index="40">4</li>
+                                <li class="page" data-index="50">5</li>
+                                <li class="">....</li>
+                                <li id="next"><i class="fa-solid fa-angle-right"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <footer class="footer-box">
+                <div class="content-footer">
+                    <div class="about-me">
+                        <h2>CHĂM SÓC KHÁCH HÀNG</h2>
+                        <ul>
+                            <li>Trung Tâm Trợ Giúp</li>
+                            <li>Shopee Blog</li>
+                            <li>Shopee Mall</li>
+                            <li>Hướng Dẫn Mua Hàng</li>
+                            <li>Hướng Dẫn Bán Hàng</li>
+                            <li>Thanh Toán</li>
+                            <li>Shopee Xu</li>
+                            <li>Vận Chuyển</li>
+                            <li>Trả Hàng & Hoàn Tiền</li>
+                            <li>Chăm Sóc Khách Hàng</li>
+                            <li>Chính Sách Bảo Hành</li>
+                        </ul>
+                    </div>
+                    <div class="veshopee">
+                        <h2>VỀ SHOPEE</h2>
+                        <ul>
+                            <li>Giới Thiệu Về Shopee Việt Nam</li>
+                            <li>Tuyển Dụng</li>
+                            <li>Điều Khoản Shopee</li>
+                            <li>Chính Sách Bảo Mật</li>
+                            <li>Chính Hãng</li>
+                            <li>Kênh Người Bán</li>
+                            <li>Flash Sales</li>
+                            <li>Chương Trình Tiếp Thị Liên Kết Shopee</li>
+                            <li>Liên Hệ Với Truyền Thông</li>
+                        </ul>
+                    </div>
+
+                    <div class="thanhtoan">
+                        <h2>THANH TOÁN</h2>
+                        <h2>ĐƠN VỊ VẬN CHUYỂN</h2>
+                    </div>
+
+                    <div class="theodoi">
+                        <h2>THEO DÕI CHÚNG TÔI TRÊN</h2>
+                        <div><i class="fa-brands fa-facebook fb"></i><span>Facebook</span></div>
+                        <br />
+                        <div><i class="fa-brands fa-instagram"></i><span>Instagram</span></div>
+                    </div>
+                    <div class="taiungdung">
+                        <h2>TẢI ỨNG DỤNG SHOPEE NGAY THÔI</h2>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
     <script src="javascript/data.js"></script>
     <script src="javascript/xuly.js"></script>
     <script src="callApi.js"></script>
